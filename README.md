@@ -55,21 +55,21 @@
 
 Cтруктура проекта:
 
-pz8-mongo/
-│   go.mod
-│   go.sum
-│   docker-compose.yml
-├───cmd
-│   └───api
-│           main.go
-│
-└───internal
-    └───db
-    │        mongo.go
-    └───cache
-            handler.go
-            model.go
-            repo.go
+     pz8-mongo/
+     │   go.mod
+     │   go.sum
+     │   docker-compose.yml
+     ├───cmd
+     │   └───api
+     │           main.go
+     │
+     └───internal
+         └───db
+         │        mongo.go
+         └───cache
+                 handler.go
+                 model.go
+                 repo.go
 
 
 Описание структуры:
